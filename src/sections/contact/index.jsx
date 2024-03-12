@@ -2,6 +2,7 @@ import './index.css';
 import contactModel from '../../models/CONTACT_model';
 import Heading from '../../components/heading';
 import Text from '../../components/text';
+import ContactForm from '../../components/contactForm';
 
 const Contact = () => {
   return (
@@ -15,6 +16,7 @@ const Contact = () => {
             {contactModel.text}
           </Text>
         </div>
+        <ContactForm />
       </div>
     </div>
   );
