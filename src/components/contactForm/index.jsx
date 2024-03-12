@@ -1,6 +1,7 @@
 import './index.css';
 import FormInput from '../../components/formInput';
 import { useState } from 'react';
+import Button from '../../components/button';
 
 const ContactForm = () => {
   const [contactFormData, setContactFormData] = useState({
@@ -69,7 +70,9 @@ const ContactForm = () => {
         />
       </div>
       <div className='contactForm__button'>
-        <button type='submit'>SUBMIT NOW</button>
+        <Button type='submit' className='button button-red' role='button'>
+          SUBMIT NOW
+        </Button>
       </div>
     </form>
   );

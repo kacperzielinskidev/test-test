@@ -1,0 +1,26 @@
+.button {
+  width: 16rem;
+  height: 5rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-white {
+  background-color: #ffffff;
+  color: #ed4c5c;
+}
+
+.button-red {
+  background-color: #ed4c5c;
+  color: white;
+}
+
+.button[role='link'] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
