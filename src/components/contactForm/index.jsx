@@ -2,6 +2,7 @@ import './index.css';
 import FormInput from '../../components/formInput';
 import { useState } from 'react';
 import Button from '../../components/button';
+import { FULL } from '../../constants';
 
 const ContactForm = () => {
   const [contactFormData, setContactFormData] = useState({
@@ -51,7 +52,7 @@ const ContactForm = () => {
 
       <div>
         <FormInput
-          style='full'
+          style={FULL}
           type='number'
           placeholder='Phone Number'
           name='phoneNumber'
@@ -61,7 +62,7 @@ const ContactForm = () => {
       </div>
       <div>
         <FormInput
-          style='full'
+          style={FULL}
           placeholder='What Service are you interested in?'
           type='text'
           name='serviceInterest'

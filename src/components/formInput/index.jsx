@@ -1,8 +1,18 @@
-import './index.css'
+import './index.css';
+import { FULL } from '../../constants';
 
-const FormInput = ({ type, name, value, onChange, placeholder, required, disabled, style }) => {
-
-  const formStyle = style === 'full' ? 'formInput formInput-full' : 'formInput formInput-half';
+const FormInput = ({
+  type,
+  name,
+  value,
+  onChange,
+  placeholder,
+  required,
+  disabled,
+  style,
+}) => {
+  const formStyle =
+    style === FULL ? 'formInput formInput-full' : 'formInput formInput-half';
 
   return (
     <input
