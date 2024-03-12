@@ -17,7 +17,13 @@ const Intro = () => {
           Up to €4.99
         </Text>
         {/* <Rating /> */}
-        <Button className='button button-white' as='a' href='#' role='link'>
+        <Button
+          ariaLabel='Sign Up'
+          className='button button-white'
+          as='a'
+          href='#'
+          role='link'
+        >
           SIGN UP
         </Button>
       </div>
