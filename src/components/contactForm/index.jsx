@@ -70,7 +70,12 @@ const ContactForm = () => {
         />
       </div>
       <div className='contactForm__button'>
-        <Button type='submit' className='button button-red' role='button'>
+        <Button
+          ariaLabel='Submit Contact Form'
+          type='submit'
+          className='button button-red'
+          role='button'
+        >
           SUBMIT NOW
         </Button>
       </div>
